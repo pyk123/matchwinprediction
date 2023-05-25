@@ -20,7 +20,6 @@ cities = ['Hyderabad', 'Bangalore', 'Mumbai', 'Indore', 'Kolkata', 'Delhi',
 
 pipe = pickle.load(open('pipe.pkl','rb'))
 st.title('Match Win Predictor')
-
 col1, col2 = st.columns(2)
 
 with col1:
